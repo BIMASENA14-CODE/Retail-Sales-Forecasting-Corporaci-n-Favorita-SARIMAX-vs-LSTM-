@@ -2,13 +2,6 @@
 
 Proyek ini membandingkan dua pendekatan forecasting time series — SARIMAX (model statistik) dan LSTM (deep learning) — untuk memprediksi penjualan harian pada lima kategori produk dari dataset retail Corporación Favorita (Ecuador), serta menyediakan dashboard interaktif untuk eksplorasi hasilnya.
 
-## Tim
-- Bima Sena (24031554214)
-- Fawazul Ammar (24031554136)
-- Satya Apta Mahardika (24031554024)
-
-Pembimbing: Ulfa Siti Nuraini, S.Stat., M.Stat.
-Program Studi S1 Sains Data, FMIPA, Universitas Negeri Surabaya.
 
 ## Tentang Dataset
 
