@@ -1,0 +1,94 @@
+{
+  "selected_categories": [
+    "GROCERY I",
+    "BEVERAGES",
+    "PRODUCE",
+    "CLEANING",
+    "DAIRY"
+  ],
+  "cutoff_date": "2016-07-01",
+  "lstm_features": [
+    "sales",
+    "dcoilwtico",
+    "onpromotion",
+    "is_holiday",
+    "is_payday",
+    "is_weekend",
+    "day_of_week",
+    "month"
+  ],
+  "seq_len": 14,
+  "exog_cols": [
+    "dcoilwtico",
+    "onpromotion",
+    "is_holiday",
+    "is_payday"
+  ],
+  "sarimax_orders": {
+    "GROCERY I": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ]
+    },
+    "BEVERAGES": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ]
+    },
+    "PRODUCE": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ]
+    },
+    "CLEANING": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ]
+    },
+    "DAIRY": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        7
+      ]
+    }
+  }
+}
